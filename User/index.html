@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Title Page-->
+    <title>Report Crime</title>
+
+    <!-- Fontfaces CSS-->
+    <link href="css/font-face.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+    <link href="vendor/wow/animate.css" rel="stylesheet" media="all">
+    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/theme.css" rel="stylesheet" media="all">
+
+</head>
+
+<body class="animsition">
+    <div class="page-wrapper">
+        <!-- HEADER MOBILE-->
+        <header class="header-mobile d-block d-lg-none">
+            <div class="header-mobile__bar">
+                <div class="container-fluid">
+                    <div class="header-mobile-inner">
+                        <a class="logo" href="index.html">
+                            <img src="images/ujlogo.jpg" alt="CRSlogo" width="80" height="80"/>
+                        </a>
+                        <button class="hamburger hamburger--slider" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar-mobile">
+                <div class="container-fluid">
+                    <ul class="navbar-mobile__list list-unstyled">
+                        <li>
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-tachometer-alt"></i>Report</a>                         
+                        </li>
+                        <li>
+                            <a href="dashboard.html">
+                                <i class="fas fa-chart-bar"></i>Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="whistleblower.html">
+                                <i class="fas fa-trophy"></i>Blow Whistle
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tips.html">
+                                <i class="fas fa-chart-bar"></i>Tips</a>
+                        </li>
+                        </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- END HEADER MOBILE-->
+
+        <!-- MENU SIDEBAR-->
+        <aside class="menu-sidebar d-none d-lg-block">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/ujlogo.jpg" alt="CRSlogo" width="80" height="80"/>
+                </a>
+            </div>
+            <div class="menu-sidebar__content js-scrollbar1">
+                <nav class="navbar-sidebar">
+                    <ul class="list-unstyled navbar__list">
+                        <li>
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-trophy"></i>Report</a>                         
+                        </li>
+                        <li>
+                            <a href="dashboard.html">
+                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="whistleblower.html">
+                                <i class="fas fa-trophy"></i>Blow Whistle
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tips.html">
+                                <i class="fas fa-chart-bar"></i>Tips</a>
+                        </li>
+                                               
+                    </ul>
+
+                </nav>
+            </div>
+        </aside>
+        <!-- END MENU SIDEBAR-->
+
+        <!-- PAGE CONTAINER-->
+        <div class="page-container">
+            <!-- HEADER DESKTOP-->
+            <header class="header-desktop">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="header-wrap">
+                            
+                            <div class="header-button">
+                                <div class="noti-wrap">
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-comment-more"></i>
+                                        <span class="quantity">2</span>
+                                        <div class="mess-dropdown js-dropdown">
+                                            <div class="mess__title">
+                                                <p>Message of the Day</p>
+                                            </div>
+                                            <div class="mess__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/ghost.jpg" alt="Chief Security" />
+                                                </div>
+                                                <div class="content">
+                                                    <h6>Chief Security</h6>
+                                                    <a href="#" >Have sent a photo</a>
+                                                    <span class="time">3 min ago</span>
+                                                </div>
+                                            </div>
+                                            <div class="mess__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/avatar-04.jpg" alt="Diane Owolabi" />
+                                                </div>
+                                                <div class="content">
+                                                    <h6>Diane Owolabi</h6>
+                                                    <a href="#">You are now connected on message</a>
+                                                    <span class="time">Yesterday</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-notifications"></i>
+                                        <span class="quantity">3</span>
+                                        <div class="notifi-dropdown js-dropdown">
+                                            <div class="notifi__title">
+                                                <p>You have 3 Notifications</p>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c1 img-cir img-40">
+                                                    <i class="zmdi zmdi-email-open"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>You got a new Tip</p>
+                                                    <span class="date"><script>document.write(new Date().getFullYear());</script></span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c2 img-cir img-40">
+                                                    <i class="zmdi zmdi-account-box"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>We will be updating soon</p>
+                                                    <span class="date"><script>document.write(new Date().getFullYear());</script></span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c3 img-cir img-40">
+                                                    <i class="zmdi zmdi-file-text"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>Wanna join a defence class? Coming Soon</p>
+                                                    <span class="date"><script>document.write(new Date().getFullYear());</script></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- HEADER DESKTOP-->
+
+            <!-- MAIN CONTENT-->
+            <div class="main-content">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="row">
+                            
+                            <div col-md-12>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <strong>Report Form</strong>
+                                    </div>
+                                    <div class="card-body card-block">
+                                        <form action="" enctype="multipart/form-data" class="form-horizontal" id="reportForm">
+                                            <div class="row form-group">
+                                                <div class="col col-md-3">
+                                                    <label for="text-input" class=" form-control-label">Crime*:</label>
+                                                </div>
+                                                <div class="col-12 col-md-9">
+                                                    <input type="text" id="reportCrime" placeholder="Crime" class="form-control">
+                                                    <small class="form-text text-muted">What crime is being Committed?</small>
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                            <div class="row form-group">
+                                                <div class="col col-md-3">
+                                                    <label for="address-input" class=" form-control-label">Full Address*</label>
+                                                </div>
+                                                <div class="col-12 col-md-9">
+                                                    <input type="address" id="reportAddress" placeholder="Full Address" class="form-control">
+                                                    <small class="help-block form-text">Please enter the full Address</small>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row form-group">
+                                                <div class="col col-md-3">
+                                                    <label for="textarea-input" class=" form-control-label">More Info on Crime:</label>
+                                                </div>
+                                                <div class="col-12 col-md-9">
+                                                    <textarea name="textarea-input" id="reportDescription" rows="9" placeholder="Content..." class="form-control"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="row form-group">
+                                                <div class="col col-md-3">
+                                                    <label for="select" class=" form-control-label">Select Area*:</label>
+                                                </div>
+                                                <div class="col-12 col-md-9">
+                                                    <select name="select" id="reportArea" class="form-control">
+                                                        <option value="0">Please select</option>
+                                                        <option value="Angwa-Rukuba">Angwa-Rukuba</option>
+                                                        <option value="Abuja Hostel">Abuja Hostel</option>
+                                                        <option value="Legislative Quarters">Legislative Quarters</option>
+                                                        <option value="Staff Quarters">Staff Quarters</option>
+                                                        <option value="Naraguta A">Naraguta A</option>
+                                                        <option value="Naraguta B">Naraguta B</option>
+                                                        <option value="Naraguta C">Naraguta C</option>
+                                                        <option value="Naraguta D">Naraguta D</option>
+                                                        <option value="Naraguta Village">Naraguta Village</option>
+                                                        <option value="PG">PG</option>
+                                                        <option value="ODUS">ODUS</option>
+                                                        <option value="Ring Road">Ring Road</option>
+                                                        <option value="Sukwa">Sukwa</option>
+                                                        <option value="Blue Roof">Blue Roof</option>
+                                                        <option value="Tina">Tina</option>
+                                                        <option value="Shemshak">Shemshak</option>
+                                                        <option value="Village Hostel">Village Hostel</option>
+                                                        <option value="Rusau">Rusau</option>
+                                                        <option value="Main Camp">Main Camp</option>
+                                                        <option value="Chibok">Chibok</option>
+                                                        <option value="Zion Hostel">Zion Hostel</option>
+                                                        <option value="Permanent Site">Permanent Site</option>
+
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="row form-group">
+                                                <div class="col col-md-3">
+                                                    <label class=" form-control-label">Rate Crime:</label>
+                                                </div>
+                                                <div class="col col-md-9">
+                                                    <div class="form-check">
+                                                        <div class="radio">
+                                                            <label for="radio1" class="form-check-label ">
+                                                                <input type="radio" id="radio1" name="radios" value="Petty" class="form-check-input">Petty
+                                                            </label>
+                                                        </div>
+                                                        <div class="radio">
+                                                            <label for="radio2" class="form-check-label ">
+                                                                <input type="radio" id="radio2" name="radios" value="Minor" class="form-check-input">Minor
+                                                            </label>
+                                                        </div>
+                                                        <div class="radio">
+                                                            <label for="radio3" class="form-check-label ">
+                                                                <input type="radio" id="radio3" name="radios" value="Major" class="form-check-input">Major
+                                                            </label>
+                                                        </div>
+                                                        <div class="radio">
+                                                            <label for="radio3" class="form-check-label ">
+                                                                <input type="radio" id="radio4" name="radios" value="Critical" class="form-check-input">Critical
+                                                            </label>
+                                                        </div>
+                                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row form-group">
+                                                <div class="col col-md-3">
+                                                    <label for="file-multiple-input" class=" form-control-label">Picture and/or Video:</label>
+                                                </div>
+                                                <div class="col-12 col-md-9">
+                                                    <input type="file" id="reportFile" name="file-multiple-input" multiple="" class="form-control-file">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button type="submit" class="btn btn-secondary mb-1" data-toggle="modal" id="reportSubmit" data-target="#smallmodal">
+											Submit
+										</button>
+
+                                    </div>    
+                                </div>
+                               
+                            </div> 
+                        </div>   
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="copyright">
+                                    <p>Copyright © 2019 <a href="https://mustardinnovators.com">Mustard Innovators</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- modal small -->
+             <div class="modal fade" id="smallmodal" tabindex="-1" role="dialog" aria-labelledby="smallmodalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="smallmodalLabel">Thank You</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Thank you for making our environment safer. Security Agents are in route right now and will be at the provided location as soon as possible. <b>Please stay quiet, and safe. You are very Brave.</b> 
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Okay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>                        
+           
+        </div>
+
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
+
+<script src="js/firebase.js"></script>
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap JS-->
+    <script src="vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <!-- Vendor JS       -->
+    <script src="vendor/slick/slick.min.js">
+    </script>
+    <script src="vendor/wow/wow.min.js"></script>
+    <script src="vendor/animsition/animsition.min.js"></script>
+    <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+    </script>
+    <script src="vendor/counter-up/jquery.waypoints.min.js"></script>
+    <script src="vendor/counter-up/jquery.counterup.min.js">
+    </script>
+    <script src="vendor/circle-progress/circle-progress.min.js"></script>
+    <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="vendor/chartjs/Chart.bundle.min.js"></script>
+    <script src="vendor/select2/select2.min.js">
+    </script>
+
+    <!-- Main JS-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
+<!-- end document-->
